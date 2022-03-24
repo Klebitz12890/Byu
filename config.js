@@ -22,7 +22,7 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.justkotz.tech': 'apikeylu',
   'https://caliphapi.com': 'apikeylu',
-  'https://api.xteam.xyz': 'Klebotz',
+  'https://api.xteam.xyz': 'KurrXd',
   'https://melcanz.com': 'apikeylu',
   'https://api.lolhuman.xyz': 'apikeylu',
   'https://zahirr-web.herokuapp.com': 'apikeylu',
