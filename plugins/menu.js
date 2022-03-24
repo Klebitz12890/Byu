@@ -30,16 +30,14 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-┌ 「 *KlebitzBOT* 」
-│❑ Version: %version
-│❑ Library: Baileys
-│❑ Mode: ${global.opts['self'] ? 'Self' : 'Publik'}
-│❑ Runtime: %uptime
-└─
+╭─「 ID Clans Bot 」
+  Hai, %name!, Saya ID Clans Bot Official Bot By ID Clans
+Tentang ID Clans:
+https://linktr.ee/idclans
 %readmore`.trimStart(),
-  header: '┌ *「 %category 」*',
-  body: '│ ≻ %cmd %islimit %isPremium',
-  footer: '└─\n',
+  header: '╭─「 %category 」',
+  body: '│ • %cmd %islimit %isPremium',
+  footer: '╰────\n',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
